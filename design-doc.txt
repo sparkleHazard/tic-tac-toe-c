@@ -1,0 +1,62 @@
+###############################################################################
+############################|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|##############################
+############################|Aims and Objectives|##############################
+############################|___________________|##############################
+###############################################################################
+
+What do I aim to achieve with this project?
+
+To have an ordered and well structured project that demonstrates functionality 
+and creative solutions to be able to share on my github as part of my CV.
+
+What are my objectives with this project?
+
+- Have a plan written out before I start coding of all the problems that I'm
+  going to need to solve, and how I envision solving them.
+- To allow and encourage participation and collaboration with other developers
+- To document challenges that I face and how I've overcome them. 
+
+###############################################################################
+#######################|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|#######################
+#######################|Application general description|#######################
+#######################|_______________________________|#######################
+###############################################################################
+
+What will the application do?
+
+It will be a simple game of tic-tac-toe.
+
+How will the user interact with the application?
+
+In the first iteration it will be a terminal application, but I would like to 
+make it into a gui application later on. 
+
+What will the user see when the appication is first launched?
+
+The user will be greeted by a welcome message and then be asked which team
+player one will be, 'x' or 'o'. A grid will then be printed onto the screen 
+with numbers in each of the grid positions like so;
+
+                                 -----------                                 
+                                | 1 | 2 | 3 |
+                                 -----------
+                                | 4 | 5 | 6 |
+                                 -----------
+                                | 7 | 8 | 9 |
+                                 -----------
+
+This will allow each player a way of entering which grid position they would 
+like to make their next move at.
+
+After the players have chosen their teams, what happens next?
+
+The grid will be cleared and player 1 will be asked to enter a grid position.
+After player one has finished their move player two will be asked for their
+move. After every move the application will check to see if anyone has won the 
+game, if no-one has won, the game will continue until someone does, if
+someone has won, then the game will end.
+
+What happens once a winner has been declared?
+
+A message will be displayed announcing the winner, then the players will be
+asked if they would like to play again.
