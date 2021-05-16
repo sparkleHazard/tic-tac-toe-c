@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include "functions.h"
 
+char playerOne;
 
 int main() {
     clearScreen();
-    getTeam();
+    playerOne = getTeam();
+    printf("%s\n", &playerOne);
 }

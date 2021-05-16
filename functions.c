@@ -1,9 +1,14 @@
-int playerOne;
+#include <string.h>
 
-int getTeam(){
-    printf("Welcome to tic-tac-toe!\nPlayer 1, what team would you like to be? (x/o)");
-    scanf("%s", playerOne);
-    printf("%s", playerOne);
+char getTeam(){
+    
+    char playerOne;
+    
+    while(strcmp(&playerOne, "x") != 0){
+        printf("Welcome to tic-tac-toe!\nPlayer 1, what team would you like to be? (x/o)");
+        scanf("%s", &playerOne);
+    }
+    return playerOne;
 }
 
 /*void drawGrid(grid)*/
@@ -13,6 +18,7 @@ int clearScreen(){
     { 
         printf(" \n");
     }
+    return 0;
 }
 /*void move()
 

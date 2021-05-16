@@ -1,6 +1,6 @@
 #include "functions.c"
 
-int getTeam();
+char getTeam();
 
 /*void drawGrid(grid)*/
 
