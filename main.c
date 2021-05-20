@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "functions.h"
 
-char playerOne;
 
 int main() {
+    char playerOne[10];
+
     clearScreen();
-    playerOne = getTeam();
-    printf("%s\n", &playerOne);
+    getTeam(playerOne);
+    printf("%s\n", playerOne);
 }

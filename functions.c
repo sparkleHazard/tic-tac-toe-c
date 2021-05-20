@@ -1,14 +1,17 @@
 #include <string.h>
 
-char getTeam(){
+char getTeam(char* playerOne){
     
-    char playerOne;
-    
-    while(strcmp(&playerOne, "x") != 0){
-        printf("Welcome to tic-tac-toe!\nPlayer 1, what team would you like to be? (x/o)");
-        scanf("%s", &playerOne);
+    while(strcmp(playerOne, "x") != 0 
+            && strcmp(playerOne, "o") != 0
+            && strcmp(playerOne, "X") != 0
+            && strcmp(playerOne, "O") != 0)
+    {
+        printf("Welcome to tic-tac-toe!\n"
+                "Player 1, what team would you like to be? (x/o)");
+        scanf("%s", playerOne);
     }
-    return playerOne;
+    return *playerOne;
 }
 
 /*void drawGrid(grid)*/
