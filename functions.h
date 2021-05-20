@@ -1,6 +1,8 @@
 #include "functions.c"
 
-char getTeam();
+char* getTeam();
+
+char* playerTwoTeam(char* playerTwo, char* playerOne);
 
 /*void drawGrid(grid)*/
 

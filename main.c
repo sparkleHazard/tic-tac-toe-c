@@ -3,9 +3,11 @@
 
 
 int main() {
-    char playerOne[10];
+    char playerOne[1];
+    char playerTwo[1];
 
     clearScreen();
     getTeam(playerOne);
-    printf("%s\n", playerOne);
+    playerTwoTeam(playerTwo, playerOne);
+    
 }
