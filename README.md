@@ -7,4 +7,4 @@
 
 
 
-`sudo pacman`
+
