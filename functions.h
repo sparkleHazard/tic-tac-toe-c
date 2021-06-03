@@ -4,7 +4,7 @@ char* getTeam();
 
 char* playerTwoTeam(char* playerTwo, char* playerOne);
 
-/*void drawGrid(grid)*/
+int drawGrid();
 
 int clearScreen();
 
