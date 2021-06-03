@@ -8,6 +8,8 @@ int drawGrid();
 
 int clearScreen();
 
+char* gridUpd();
+
 int* gridNumber();
 
 /*void move()

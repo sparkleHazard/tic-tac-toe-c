@@ -14,9 +14,13 @@ int main() {
     clearScreen();
 
     /*This is to display how the grid is layed out*/
-    int* gridNum = gridNumber();
+   /* int* gridNum = gridNumber();*/
+    char* gridUpdate = gridUpd();
 
-    drawGrid(gridNum);
+   /* drawGrid(gridNum);
+    sleep(2);
+    clearScreen();*/
+    drawGrid(gridUpdate);
 
     return 0;
     
