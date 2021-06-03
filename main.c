@@ -13,7 +13,8 @@ int main() {
     sleep(3);
     clearScreen();
 
-    drawGrid();
+    int* gridNum = gridNumber();
+    drawGrid(gridNum);
 
     return 0;
     

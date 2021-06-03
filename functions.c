@@ -39,21 +39,36 @@ char* playerTwoTeam(char* playerTwo, char* playerOne){
     return playerTwo;
 }
 
-int drawGrid(){
+int drawGrid(int array[8]){
     printf("-------\n" 
            "|%i|%i|%i|\n"
            "-------\n"
            "|%i|%i|%i|\n"
            "-------\n"
            "|%i|%i|%i|\n"
-           "-------\n"
-           ,1,2,3,4,5,6,7,8,9);
+           "-------\n",
+           array[0],
+           array[1],
+           array[2],
+           array[3],
+           array[4],
+           array[5],
+           array[6],
+           array[7],
+           array[8]);
 
     return 0;
 
 }
 
- 
+int* gridNumber() {
+    static int array[8];
+    for (int i=0;i<=8;i++){
+        array[i] = i+1;
+    }
+    return array;
+}
+
 /*void move()
 
 #void updateGrid()
